@@ -1,0 +1,35 @@
+/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/ethereumjs-tx/node_modules/ethereumjs-util/dist/index.js:656
+        assert(field.length >= v.length, 'The field ' + field.name + ' must not have more ' + field.length + ' bytes');
+        ^
+AssertionError [ERR_ASSERTION]: The field nonce must not have more 32 bytes
+    at Transaction.setter [as nonce] (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/ethereumjs-tx/node_modules/ethereumjs-util/dist/index.js:656:9)
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/ethereumjs-tx/node_modules/ethereumjs-util/dist/index.js:708:63
+    at Array.forEach (<anonymous>)
+    at Object.exports.defineProperties (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/ethereumjs-tx/node_modules/ethereumjs-util/dist/index.js:707:14)
+    at new Transaction (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/ethereumjs-tx/es5/index.js:112:13)
+    at HookedWalletSubprovider.signTransaction (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/truffle-hdwallet-provider/index.js:38:16)
+    at nextTask (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/waterfall.js:16:14)
+    at next (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/waterfall.js:23:9)
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/onlyOnce.js:12:16
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/subproviders/hooked-wallet.js:524:5
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/parallel.js:39:9
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/once.js:12:16
+    at iterateeCallback (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/eachOfLimit.js:48:24)
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/onlyOnce.js:12:16
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/parallel.js:36:13
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/index.js:152:9
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/once.js:12:16
+    at replenish (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/eachOfLimit.js:61:25)
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/eachOfLimit.js:71:9
+    at eachLimit (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/eachLimit.js:43:36)
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/node_modules/async/internal/doLimit.js:9:16
+    at end (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/index.js:127:5)
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3-provider-engine/subproviders/provider.js:20:5
+    at XMLHttpRequest.request.onreadystatechange (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/truffle-hdwallet-provider/node_modules/web3/lib/web3/httpprovider.js:118:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:64:18)
+    at XMLHttpRequest._setReadyState (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:354:12)
+    at XMLHttpRequest._onHttpResponseEnd (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:509:12)
+    at IncomingMessage.<anonymous> (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:469:24)
+    at IncomingMessage.emit (events.js:164:20)
+    at endReadableNT (_stream_readable.js:1062:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)

@@ -1,0 +1,1600 @@
+Paul-Bergs-Macbook:adpanel paulrberg$ ng serve
+Your global Angular CLI version (6.0.3) is greater than your local
+version (1.6.3). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+** NG Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+Date: 2018-05-23T11:42:57.365Z
+Hash: f6235ef12e44bf42bb89
+Time: 18360ms
+chunk {inline} inline.bundle.js (inline) 5.79 kB [entry] [rendered]
+chunk {main} main.bundle.js (main) 1.99 MB [initial] [rendered]
+chunk {polyfills} polyfills.bundle.js (polyfills) 556 kB [initial] [rendered]
+chunk {styles} styles.bundle.js (styles) 27.5 kB [initial] [rendered]
+chunk {vendor} vendor.bundle.js (vendor) 22.7 MB [initial] [rendered]
+
+ERROR in ./src/app/publisher/edit-site/edit-site-create-ad-units/edit-site-create-ad-units.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/edit-site/edit-site-create-ad-units/edit-site-create-ad-units.component.ts 159:21-74
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./node_modules/css-loader?{"sourceMap":false,"importLoaders":1}!./node_modules/postcss-loader/lib?{"ident":"postcss","sourceMap":false}!./node_modules/sass-loader/lib/loader.js?{"sourceMap":false,"precision":8,"includePaths":[]}!./src/styles.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/styles.scss 4:14-191
+ @ multi ./src/styles.scss
+ERROR in ./src/app/common/dialog/customize-account-choose-dialog/customize-account-choose-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/customize-account-choose-dialog/customize-account-choose-dialog.component.ts 26:21-80
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/dialog/account-choose-dialog/account-choose-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/account-choose-dialog/account-choose-dialog.component.ts 33:21-70
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/dialog/leave-edit-process-dialog/leave-edit-process-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/leave-edit-process-dialog/leave-edit-process-dialog.component.ts 22:21-74
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/dialog/add-funds-dialog/add-funds-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/add-funds-dialog/add-funds-dialog.component.ts 53:21-65
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/dialog/change-address-dialog/change-address-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/change-address-dialog/change-address-dialog.component.ts 81:21-70
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/dialog/withdraw-funds-dialog/withdraw-funds-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/withdraw-funds-dialog/withdraw-funds-dialog.component.ts 82:21-70
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/dialog/change-automatic-withdraw-dialog/change-automatic-withdraw-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/change-automatic-withdraw-dialog/change-automatic-withdraw-dialog.component.ts 89:21-81
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/dialog/add-custom-targeting-dialog/add-custom-targeting-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/dialog/add-custom-targeting-dialog/add-custom-targeting-dialog.component.ts 60:21-76
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/header/header.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/header/header.component.ts 108:21-55
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/notifications/notifications.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/notifications/notifications.component.ts 70:21-62
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/push-notifications/push-notifications.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/push-notifications/push-notifications.component.ts 44:21-67
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/notifications/notification/notification.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/notifications/notification/notification.component.ts 83:21-61
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/push-notifications/push-notification/push-notification.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/push-notifications/push-notification/push-notification.component.ts 62:21-66
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/chart/chart.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/chart/chart.component.ts 108:21-54
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/chart-filter/chart-filter.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/chart-filter/chart-filter.component.ts 87:21-61
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/chart-filter-by-type/chart-filter-by-type.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/chart-filter-by-type/chart-filter-by-type.component.ts 80:21-69
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/funds-summary/funds-summary.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/funds-summary/funds-summary.component.ts 73:21-62
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/confirmation-alert/confirmation-alert.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/confirmation-alert/confirmation-alert.component.ts 42:21-67
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/table-navigation/table-navigation.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/table-navigation/table-navigation.component.ts 85:21-65
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/edit-asset-navigation/edit-asset-navigation.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/edit-asset-navigation/edit-asset-navigation.component.ts 34:21-70
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/account-confirmed-alert/account-confirmed-alert.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/account-confirmed-alert/account-confirmed-alert.component.ts 17:21-72
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/targeting/targeting-select/targeting-select.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/targeting/targeting-select/targeting-select.component.ts 241:21-65
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/common/components/targeting/targeting-display/targeting-display.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/common/components/targeting/targeting-display/targeting-display.component.ts 69:21-66
+ @ ./src/app/common/common.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/admin/dialogs/set-your-earnings-dialog/set-your-earnings-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/admin/dialogs/set-your-earnings-dialog/set-your-earnings-dialog.component.ts 61:21-73
+ @ ./src/app/admin/admin.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/billing/billing-history/billing-history-withdrawal/billing-history-withdrawal.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/billing/billing-history/billing-history-withdrawal/billing-history-withdrawal.component.ts 28:21-75
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/publisher.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/publisher.component.ts 21:21-58
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/billing/billing-history/billing-history.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/billing/billing-history/billing-history.component.ts 31:21-64
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/billing/billing.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/billing/billing.component.ts 17:21-56
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/settings.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/settings.component.ts 19:21-57
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/admin/admin.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/admin/admin.component.ts 19:21-54
+ @ ./src/app/admin/admin.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/edit-site/edit-site.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/edit-site/edit-site.component.ts 40:21-58
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/edit-site/edit-site-summary/edit-site-summary.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/edit-site/edit-site-summary/edit-site-summary.component.ts 67:21-66
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/app.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/app.component.ts 129:21-52
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/edit-site/edit-site-additional-targeting/edit-site-additional-targeting.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/edit-site/edit-site-additional-targeting/edit-site-additional-targeting.component.ts 108:21-79
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/edit-site/edit-site-basic-info/edit-site-basic-information.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/edit-site/edit-site-basic-info/edit-site-basic-information.component.ts 88:21-76
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/site-list/site-list.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/site-list/site-list.component.ts 55:21-58
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/site-list/site-list-item/site-list-item.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/site-list/site-list-item/site-list-item.component.ts 29:21-63
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/site-details/site-details.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/site-details/site-details.component.ts 109:21-61
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/site-details/ad-units/ad-units.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/site-details/ad-units/ad-units.component.ts 36:21-57
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/dashboard/dashboard.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/dashboard/dashboard.component.ts 95:21-58
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/settings-navigation/settings-navigation.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/settings-navigation/settings-navigation.component.ts 65:21-68
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/billing/user-wallet/user-wallet.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/billing/user-wallet/user-wallet.component.ts 68:21-60
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/general-settings/general-settings.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/general-settings/general-settings.component.ts 17:21-65
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/general-settings/preferences/preferences.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/general-settings/preferences/preferences.component.ts 102:21-60
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/general-settings/notification-settings/notification-settings.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/general-settings/notification-settings/notification-settings.component.ts 64:21-70
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/admin/user-list/user-list.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/admin/user-list/user-list.component.ts 84:21-58
+ @ ./src/app/admin/admin.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/admin/user-list/user-list-item/user-list-item.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/admin/user-list/user-list-item/user-list-item.component.ts 24:21-63
+ @ ./src/app/admin/admin.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/admin/dashboard/dashboard.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/admin/dashboard/dashboard.component.ts 73:21-58
+ @ ./src/app/admin/admin.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/publisher/dialogs/site-code-dialog/site-code-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/publisher/dialogs/site-code-dialog/site-code-dialog.component.ts 51:21-65
+ @ ./src/app/publisher/publisher.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/settings/dialogs/wallet-dialog/wallet-dialog.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/settings/dialogs/wallet-dialog/wallet-dialog.component.ts 17:21-62
+ @ ./src/app/settings/settings.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/campaign-details/campaign-details.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/campaign-details/campaign-details.component.ts 93:21-65
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/campaign-details/ad-list/ad-list.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/campaign-details/ad-list/ad-list.component.ts 28:21-56
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/campaign-details/ad-list/ad-list-item/ad-list-item.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/campaign-details/ad-list/ad-list-item/ad-list-item.component.ts 49:21-61
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/dashboard/dashboard.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/dashboard/dashboard.component.ts 91:21-58
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/advertiser.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/advertiser.component.ts 19:21-59
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/auth/auth.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/auth/auth.component.ts 19:21-53
+ @ ./src/app/auth/auth.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/campaign-list/campaign-list.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/campaign-list/campaign-list.component.ts 41:21-62
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/campaign-list/campaign-list-item/campaign-list-item.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/campaign-list/campaign-list-item/campaign-list-item.component.ts 31:21-67
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/edit-campaign/edit-campaign.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/edit-campaign/edit-campaign.component.ts 40:21-62
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/edit-campaign/edit-campaign-summary/edit-campaign-summary.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/edit-campaign/edit-campaign-summary/edit-campaign-summary.component.ts 72:21-70
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/edit-campaign/edit-campaign-create-ads/edit-campaign-create-ads.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/edit-campaign/edit-campaign-create-ads/edit-campaign-create-ads.component.ts 245:21-73
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/edit-campaign/edit-campaign-additional-targeting/edit-campaign-additional-targeting.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/edit-campaign/edit-campaign-additional-targeting/edit-campaign-additional-targeting.component.ts 108:21-83
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/advertiser/edit-campaign/edit-campaign-basic-info/edit-campaign-basic-information.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/advertiser/edit-campaign/edit-campaign-basic-info/edit-campaign-basic-information.component.ts 101:21-80
+ @ ./src/app/advertiser/advertiser.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/auth/confirmation/confirmation.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/auth/confirmation/confirmation.component.ts 19:21-61
+ @ ./src/app/auth/auth.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/auth/remind-password/remind-password.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/auth/remind-password/remind-password.component.ts 48:21-64
+ @ ./src/app/auth/auth.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/auth/register/register.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/auth/register/register.component.ts 58:21-57
+ @ ./src/app/auth/auth.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+ERROR in ./src/app/auth/login/login.component.scss
+Module build failed: Error: ENOENT: no such file or directory, scandir '/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/vendor'
+    at Object.fs.readdirSync (fs.js:924:18)
+    at Object.getInstalledBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/extensions.js:129:13)
+    at foundBinariesList (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:20:15)
+    at foundBinaries (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:15:5)
+    at Object.module.exports.missingBinary (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/errors.js:45:5)
+    at module.exports (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/binding.js:15:30)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/node-sass/lib/index.js:14:35)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Module.require (module.js:604:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/Users/paulrberg/Documents/projects/clones/adshares/adpanel/node_modules/sass-loader/lib/loader.js:3:14)
+    at Module._compile (module.js:660:30)
+ @ ./src/app/auth/login/login.component.ts 138:21-54
+ @ ./src/app/auth/auth.module.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi webpack-dev-server/client?http://0.0.0.0:0 ./src/main.ts
+
+webpack: Failed to compile.

@@ -1,0 +1,14 @@
+web3.fromWei(value, gwei) 20
+block.gasLimit 6721975
+web3.toDecimal('0xEA60') 60000
+err: Error: base fee exceeds gas limit
+    at Object.InvalidResponse (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3/lib/web3/errors.js:38:16)
+    at /Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3/lib/web3/requestmanager.js:86:36
+    at XMLHttpRequest.request.onreadystatechange (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/web3/lib/web3/httpprovider.js:128:7)
+    at XMLHttpRequestEventTarget.dispatchEvent (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:64:18)
+    at XMLHttpRequest._setReadyState (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:354:12)
+    at XMLHttpRequest._onHttpResponseEnd (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:509:12)
+    at IncomingMessage.<anonymous> (/Users/paulrberg/Documents/projects/ef/dev/src/eth/truffle/paulcoin/node_modules/xhr2/lib/xhr2.js:469:24)
+    at IncomingMessage.emit (events.js:164:20)
+    at endReadableNT (_stream_readable.js:1062:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)

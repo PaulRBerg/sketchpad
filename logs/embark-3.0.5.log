@@ -1,0 +1,39 @@
+===============================================================================
+===============================================================================
+Embark Blockchain Using: Go-Ethereum (https://github.com/ethereum/go-ethereum)
+===============================================================================
+===============================================================================
+running: geth version
+Geth
+Version: 1.8.8-stable
+Architecture: amd64
+Protocol Versions: [63 62]
+Network Id: 1
+Go Version: go1.10.2
+Operating System: darwin
+GOPATH=/Users/paulrberg/go
+GOROOT=/usr/local/Cellar/go/1.10.2/libexec
+running: geth --networkid 1337 --datadir=".embark/development/datadir" --password config/development/password  --port 30303 --rpc --rpcport 8545 --rpcaddr localhost --rpccorsdomain="http://localhost:8000,http://localhost:5001"  --ws --wsport 8546 --wsaddr localhost --wsorigins "http://localhost:8000,http://localhost:5001"  --nodiscover  --maxpeers 0 --mine   --shh  --rpcapi "eth,web3,net,shh" --wsapi "eth,web3,net,shh"  --targetgaslimit 8000000  --dev
+INFO [05-22|21:57:21] Maximum peer count                       ETH=0 LES=0 total=0
+INFO [05-22|21:57:22] Using developer account                  address=0x31B023543eF498720850b5920907B0D60A78496B
+INFO [05-22|21:57:22] Starting peer-to-peer node               instance=Geth/v1.8.8-stable/darwin-amd64/go1.10.2
+INFO [05-22|21:57:22] Allocated cache and file handles         database=/Users/paulrberg/Documents/projects/ef/dev/src/eth/embark/TokenFactory/.embark/development/datadir/geth/chaindata cache=768 handles=1024
+INFO [05-22|21:57:22] Persisted trie from memory database      nodes=11 size=2.17kB time=15.612µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-22|21:57:22] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: clique}"
+INFO [05-22|21:57:22] Initialising Ethereum protocol           versions="[63 62]" network=1337
+INFO [05-22|21:57:22] Loaded most recent local header          number=0 hash=db2af7…9a6534 td=1
+INFO [05-22|21:57:22] Loaded most recent local full block      number=0 hash=db2af7…9a6534 td=1
+INFO [05-22|21:57:22] Loaded most recent local fast block      number=0 hash=db2af7…9a6534 td=1
+INFO [05-22|21:57:22] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-22|21:57:22] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-22|21:57:22] Starting P2P networking
+INFO [05-22|21:57:22] started whisper v.6.0
+INFO [05-22|21:57:22] RLPx listener up                         self="enode://5564535361d083f23edd3b88c1b90f0582bf6d9284f7ee3d011d0d14bbb0e0d5b4035839b794f714b091389dd6a6facf479487ccaa7b413224324f6657c441d9@[::]:65529?discport=0"
+INFO [05-22|21:57:22] Blockchain manager stopped
+INFO [05-22|21:57:22] Stopping Ethereum protocol
+INFO [05-22|21:57:22] Ethereum protocol stopped
+INFO [05-22|21:57:22] Transaction pool stopped
+INFO [05-22|21:57:22] Database closed                          database=/Users/paulrberg/Documents/projects/ef/dev/src/eth/embark/TokenFactory/.embark/development/datadir/geth/chaindata
+INFO [05-22|21:57:22] whisper stopped
+Fatal: Error starting protocol stack: listen unix /Users/paulrberg/Documents/projects/ef/dev/src/eth/embark/TokenFactory/.embark/development/datadir/geth.ipc: bind: invalid argument
+Fatal: Error starting protocol stack: listen unix /Users/paulrberg/Documents/projects/ef/dev/src/eth/embark/TokenFactory/.embark/development/datadir/geth.ipc: bind: invalid argument
