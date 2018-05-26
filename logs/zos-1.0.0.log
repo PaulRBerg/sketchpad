@@ -25,4 +25,3 @@ TypeError: Cannot set property 'PaulContract' of undefined
     at add (/Users/paulrberg/.nvm/versions/node/v9.3.0/lib/node_modules/zos/lib/scripts/add.js:18:17)
     at Command.<anonymous> (/Users/paulrberg/.nvm/versions/node/v9.3.0/lib/node_modules/zos/lib/commands/add.js:33:27)
     at <anonymous>
-    
