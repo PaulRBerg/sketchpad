@@ -1,0 +1,19 @@
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+main.visitor.Visit(0x0, 0x11088e0, 0xc420094340, 0x0, 0x0)
+/Users/paulrberg/go/src/github.com/paulrberg/airdock-go/main.go:45 +0x171
+go/ast.Walk(0x11087c0, 0x0, 0x11088e0, 0xc420094340)
+/usr/local/Cellar/go/1.10.2/libexec/src/go/ast/walk.go:52 +0x66
+go/ast.walkStmtList(0x11087c0, 0x0, 0xc4200943c0, 0x4, 0x4)
+/usr/local/Cellar/go/1.10.2/libexec/src/go/ast/walk.go:32 +0x81
+go/ast.Walk(0x11087c0, 0x0, 0x1108a60, 0xc42008c600)
+/usr/local/Cellar/go/1.10.2/libexec/src/go/ast/walk.go:224 +0x1b61
+go/ast.Walk(0x11087c0, 0x0, 0x1108ee0, 0xc42008c630)
+/usr/local/Cellar/go/1.10.2/libexec/src/go/ast/walk.go:344 +0xd6d
+go/ast.walkDeclList(0x11087c0, 0x0, 0xc4200946c0, 0x4, 0x4)
+/usr/local/Cellar/go/1.10.2/libexec/src/go/ast/walk.go:38 +0x81
+go/ast.Walk(0x11087c0, 0x0, 0x1108e60, 0xc4200b0100)
+/usr/local/Cellar/go/1.10.2/libexec/src/go/ast/walk.go:353 +0x2650
+main.main()
+/Users/paulrberg/go/src/github.com/paulrberg/airdock-go/main.go:25 +0x2c9
