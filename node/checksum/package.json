@@ -13,6 +13,7 @@
   "author": "Paul Berg <hello@paulrberg.com> (https://paulrberg.com)",
   "license": "MIT",
   "dependencies": {
+    "cli-table": "^0.3.1",
     "keccak": "^1.4.0"
   }
 }
