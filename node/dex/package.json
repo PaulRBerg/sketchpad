@@ -1,0 +1,19 @@
+{
+  "name": "dex",
+  "version": "0.1.0",
+  "description": "Decentralized exchange list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "decentralization",
+    "exchange",
+    "tokens"
+  ],
+  "author": "Paul Berg <hello@paulrberg.com> (https://paulrberg.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table": "^0.3.1"
+  }
+}
