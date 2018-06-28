@@ -1,5 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+android/
 cmake-build-debug/
+ios/
 node_modules/
+.env
 .idea/
 .DS_Store

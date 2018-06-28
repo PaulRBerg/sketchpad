@@ -1,0 +1,19 @@
+{
+  "name": "cryptotest",
+  "version": "0.1.0",
+  "description": "Crypto tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptography",
+    "functions",
+    "tests"
+  ],
+  "author": "Paul Berg <hello@paulrberg.com> (https://paulrberg.com)",
+  "license": "MIT",
+  "dependencies": {
+    "pbkdf2": "^3.0.16"
+  }
+}
