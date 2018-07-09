@@ -24,7 +24,7 @@ void GenMerkle(short length = 3)
 
     auto dimen = (int) pow(2, length);
     for (int i = 0; i < dimen; ++i) {
-        tree[0][i] = GenRandom(32);
+        tree[0][i] = GenRandom(64);
     }
 
     int aux = dimen / 2;
@@ -42,13 +42,3 @@ void GenMerkle(short length = 3)
         std::cout << "\n";
     }
 }
-
-//    std::cout << "Test:" << picosha2::hash256_hex_string(keys[0]);
-
-//    for (int i = 0; i < length; ++i) {
-//        for (int j = 0; j < length; ++j) {
-//            tree[i * length + j] =
-//        }
-//    }
-
-//    std::cout << "Here's the Merkle Tree" << "\n";
