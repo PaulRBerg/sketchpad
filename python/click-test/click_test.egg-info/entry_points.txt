@@ -1,0 +1,3 @@
+[console_scripts]
+clicktest = cli.cli:hello
+

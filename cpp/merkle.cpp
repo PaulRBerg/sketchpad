@@ -34,10 +34,11 @@ void GenMerkle(short length = 3)
         }
     }
 
-    int i = 0, j = 0;
-    for (i; i < dimen; ++i, j = 0) {
+    int i, j = 0;
+    for (i = 0; i < dimen; ++i, j = 0) {
         while (!tree[i][j].empty()) {
-            std::cout << "(" << i << "," << j << "): " << tree[i][j++] << "\n";
+            std::cout << "(" << i << "," << j << "): " << tree[i][j] << "\n";
+            ++j;
         }
         std::cout << "\n";
     }

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: click-test
+Version: 0.0.0
+Summary: Click cli tool test
+Home-page: UNKNOWN
+Author: Paul Berg
+Author-email: UNKNOWN
+License: Type license() to see the full license text
+Description: ## Click Test
+        Test of the python `click` tool.
+Platform: UNKNOWN

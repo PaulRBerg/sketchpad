@@ -1,0 +1,10 @@
+README.md
+setup.py
+cli/__init__.py
+cli/cli.py
+click_test.egg-info/PKG-INFO
+click_test.egg-info/SOURCES.txt
+click_test.egg-info/dependency_links.txt
+click_test.egg-info/entry_points.txt
+click_test.egg-info/requires.txt
+click_test.egg-info/top_level.txt
