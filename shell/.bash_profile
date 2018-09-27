@@ -23,6 +23,9 @@ export GOBIN="$HOME/go/bin"
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 
+# Ethereum
+export DATADIR="$HOME.rinkeby"
+
 # LLVM
 export LLVM_DIR="/usr/local/Cellar/llvm@4/4.0.1/lib/cmake"
 
@@ -52,7 +55,8 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # Globals
+export DOCS="$HOME/Documents"
+export ETH="$HOME/Documents/Crypto/Ethereum"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-
 
