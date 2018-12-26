@@ -1,0 +1,16 @@
+{
+    "name",
+    "version",
+    "author",
+    "description",
+    "license",
+    "main",
+    "homepage",
+    "keywords",
+    "repository",
+    "bugs",
+    "engines",
+    "dependencies",
+    "devDependencies",
+    "scripts"
+}
