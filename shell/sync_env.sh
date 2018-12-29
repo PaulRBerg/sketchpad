@@ -6,5 +6,6 @@ cp $HOME/.bashrc ./.bashrc
 cp $HOME/.jshintrc ./.jshintrc
 cp $HOME/.eslintrc ./.eslintrc
 cp $HOME/.packagerc ./.packagerc
+cp $HOME/.soliumrc.json ./.soliumrc.json
 cp $HOME/.vimrc ./.vimrc
 
