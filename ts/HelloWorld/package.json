@@ -1,0 +1,21 @@
+{
+  "name": "Hello world in typescript",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.11.1"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0"
+  },
+  "scripts": {
+    "compile": "./node_modules/.bin/tsc --project ."
+  },
+  "keywords": [],
+  "author": "Paul Berg (https://paulrberg.com)",
+  "license": "MIT"
+}
