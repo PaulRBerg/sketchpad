@@ -1,15 +1,15 @@
 alias ..="cd ../"
+alias aztec="cd ~/Documents/Work/AZTEC"
 alias blockchain="cd ~/Documents/Blockchain"
 alias clion="open -a \"CLion\""
 alias desktop="cd ~/Desktop"
 alias docs="cd ~/Documents"
-alias eth="cd ~/Documents/Blockchain/Ethereum/"
-alias gethpath="cd $HOME/go/src/github.com/ethereum/go-ethereum"
-alias goland="open -a \"GoLAnd\""
+alias goland="open -a \"GoLand\""
 alias intellij="open -a \"IntelliJ Idea\""
-alias list="ls -a -1"
+alias list="tree -L 1 ."
 alias mnemonic="gshuf -n12 /usr/share/dict/words"
 alias now="date +\"%Y-%m-%dT%H:%M:%S%z\""
+alias paulrberg="cd ~/Documents/Projects/PaulRBerg"
 alias pad="cd ~/Documents/Pad"
 alias ports="sudo lsof -iTCP -sTCP:LISTEN -n -P"
 alias projects="cd ~/Documents/Projects"
@@ -26,6 +26,9 @@ function strlen() {
 	echo -n $@ | wc -c
 }
 
+# aztec
+alias aztecu="npm install aztec.js@latest @aztec/contract-addresses@latest @aztec/contract-artifacts@latest @aztec/dev-utils@latest --global"
+
 # bash
 alias openbash="open ~/.bash_profile"
 alias srcbash="source ~/.bash_profile"
@@ -33,16 +36,16 @@ alias vimbash="vim ~/.bash_profile"
 alias vimaliases="vim ~/.bash_aliases"
 
 # convertors
-function nobin() {	
+function numbin() {	
     echo "obase=2;$@" | bc
 }
-function nounbin() {
+function numunbin() {
 	echo $((2#$@))
 }
-function nohex() {
+function numhex() {
 	printf "%x\n" $@ | tr "[a-z]" "[A-Z]"
 }
-function nounhex() {
+function numunhex() {
 	echo $(($@))
 }
 function strhex() {
@@ -72,23 +75,34 @@ function sha256() {
 
 # curl
 alias ..="cd ../"
-alias curl_post="curl -H \"Content-Type: application/json\""
+alias curl-post="curl -H \"Content-Type: application/json\""
 
 # ethereum
 alias clefy="clef --networkid 4 --keystore $HOME/Library/Ethereum/rinkeby/keystore --4bytedb $HOME/go/src/github.com/ethereum/go-ethereum/cmd/clef/4byte.json --rules ./rules.js --rpc"
-alias ganache="ganache-cli --port 8545 --networkId 7923"
-alias gat="geth --datadir $HOME/Library/Ethereum/rinkeby  attach ipc:$HOME/Library/Ethereum/rinkeby/geth.ipc console"
+alias clefyrun="go run *.go --networkid 4 --keystore $HOME/Library/Ethereum/rinkeby/keystore --4bytedb $HOME/go/src/github.com/ethereum/go-ethereum/cmd/clef/4byte.json --rpc"
+alias devnet="docker run -it -d --rm -p 8545:8501 -p 8546:8546 0xorg/devnet:latest /bin/bash"
+alias eth="cd ~/Documents/Blockchain/Ethereum/"
+alias ganache="ganache-cli --port 8545 --networkId 1234"
+alias ganache-app="open -a \"Ganache\""
+alias gattach="geth --datadir $HOME/Library/Ethereum/rinkeby attach ipc:$HOME/Library/Ethereum/rinkeby/geth.ipc console"
 alias gethboozer="geth --datadir $HOME/Documents/Crypto/Ethereum/core/nodes/boozer --networkid 7923 --rpc"
-alias gethy="geth --rinkeby --rpc"
+alias gethpath="cd $HOME/go/src/github.com/ethereum/go-ethereum"
+alias goerli="geth --datadir $HOME/Library/Ethereum/goerli --rpc"
 alias pat="geth attach ipc:$HOME/Library/Application\ Support/io.parity.ethereum/jsonrpc.ipc"
+alias rinkeby="geth --rinkeby --rpc"
 alias trf="truffle"
+function stopDevnet() {
+    docker stop $(docker ps -aq --filter ancestor=0xorg/devnet:latest)
+}
 
 # git
 alias gaa="git add -A"
+alias gcan="git commit --amend --no-edit"
 alias gcm="git commit -m"
 alias gphm="git push heroku master"
 alias gpom="git push origin master"
 alias gpod="git push origin develop"
+alias gpfod="git push --force-with-lease origin develop"
 alias grao="git remote add origin"
 alias gs="git status"
 alias tac="gulp transpile && git add -A && git commit -m"
@@ -98,14 +112,13 @@ alias fdof="firebase deploy --only functions"
 alias ffs="firebase functions:shell"
 
 # npm
+alias npmlist="npm ls -g --depth 0"
+alias npmpub="npm run build && npm publish" # run babel first
+alias nrc="npm run coverage"
 alias nrd="npm run dev"
-alias nrp="npm run private"
-alias nc="npm run coverage"
-alias nl="npm run lint"
-alias ns="npm start"
-alias nt="npm test"
-alias ntc="npm run test-cov"
-alias unpm="npm-check --skip-unused --update-all --save-exact --ignore"
+alias nrl="npm run lint"
+alias nrt="npm run test"
+alias update-modules="npm-check --skip-unused --update-all --save-exact --ignore"
 
 # pentest
 alias scanports="nmap --top-ports 1000 -T4 -sC"

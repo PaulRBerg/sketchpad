@@ -16,10 +16,3 @@ fi
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then source $(brew --prefix)/etc/bash_completion; fi
 
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[ -f /Users/paulrberg/.nvm/versions/node/v10.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /Users/paulrberg/.nvm/versions/node/v10.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[ -f /Users/paulrberg/.nvm/versions/node/v10.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /Users/paulrberg/.nvm/versions/node/v10.12.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash

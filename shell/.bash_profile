@@ -41,7 +41,7 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig" 
 
 # Node
-export NODE_PATH="$HOME/.nvm/versions/node/v10.12.0/lib/node_modules"
+export NODE_PATH=`npm root -g`
 
 # Python
 export PATH="$HOME/.local/bin:$PATH"
@@ -63,12 +63,12 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # WebAssembly
-if [ -f $PWD/.emsdk ]; then
-    export PATH="$HOME/emsdk:$PATH"
-    export PATH="$HOME/emsdk/clang/e1.38.21_64bit:$PATH"
-    export PATH="$HOME/emsdk/node/8.9.1_64bit/bin:$PATH"
-    export PATH="$HOME/emsdk/emscripten/1.38.21:$PATH"
-fi
+# if [ -f $PWD/.emsdk ]; then
+   # export PATH="$HOME/emsdk:$PATH"
+   # export PATH="$HOME/emsdk/clang/e1.38.21_64bit:$PATH"
+   # export PATH="$HOME/emsdk/node/8.9.1_64bit/bin:$PATH"
+   # export PATH="$HOME/emsdk/emscripten/1.38.21:$PATH"
+# fi
 
 # Globals
 export PATH="/usr/local/sbin:$PATH"
