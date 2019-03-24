@@ -31,6 +31,10 @@ export LLVM_DIR="/usr/local/Cellar/llvm@4/4.0.1/lib/cmake"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home"
 export CATALINA_HOME="/usr/local/Cellar/tomcat/8.5.24/libexec"
 
+# Klab
+export PATH="$HOME/Ethereum/klab/bin:$PATH"
+export KLAB_EVMS_PATH="$HOME/Ethereum/klab/evm-semantics"
+
 # OpenSSL
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
@@ -40,6 +44,9 @@ export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
 # Node
 export NODE_PATH=`npm root --quiet -g`
 export PATH="$NODE_PATH:$PATH"
+
+# Nix
+if [ -e /Users/paulrberg/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/paulrberg/.nix-profile/etc/profile.d/nix.sh; fi
 
 # Python
 export PATH="$HOME/.local/bin:$PATH"

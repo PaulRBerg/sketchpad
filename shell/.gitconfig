@@ -1,0 +1,13 @@
+[alias]
+  tagcommit = rev-list -n 1
+[core]
+	excludesfile = /Users/paulrberg/.gitignore
+[diff]
+	tool = opendiff
+[merge]
+    tool = opendiff
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[user]
+	name = Paul Berg
+	email = hello@paulrberg.com

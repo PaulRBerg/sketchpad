@@ -1,0 +1,14 @@
+*~
+*.DS_Store
+*.iml
+*.orig
+.emsdk
+.env
+.envrc
+.nvmrc
+.python-version
+
+.idea/
+.nyc-output/
+.vscode/
+node_modules/
