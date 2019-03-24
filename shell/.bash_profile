@@ -16,16 +16,13 @@ export AWS_DEFAULT_PROFILE="default"
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 # Gnubin
-PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
 
 # Go
 export GOPATH="$HOME/go"
 export GOBIN="$HOME/go/bin"
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/usr/local/opt/go/libexec/bin:$PATH"
-
-# Ethereum
-export ETH_DATADIR="$HOME/.rinkeby"
 
 # LLVM
 export LLVM_DIR="/usr/local/Cellar/llvm@4/4.0.1/lib/cmake"
@@ -41,7 +38,8 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig" 
 
 # Node
-export NODE_PATH=`npm root -g`
+export NODE_PATH=`npm root --quiet -g`
+export PATH="$NODE_PATH:$PATH"
 
 # Python
 export PATH="$HOME/.local/bin:$PATH"
@@ -61,14 +59,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Terminal
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
-
-# WebAssembly
-# if [ -f $PWD/.emsdk ]; then
-   # export PATH="$HOME/emsdk:$PATH"
-   # export PATH="$HOME/emsdk/clang/e1.38.21_64bit:$PATH"
-   # export PATH="$HOME/emsdk/node/8.9.1_64bit/bin:$PATH"
-   # export PATH="$HOME/emsdk/emscripten/1.38.21:$PATH"
-# fi
 
 # Globals
 export PATH="/usr/local/sbin:$PATH"

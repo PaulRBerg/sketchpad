@@ -6,7 +6,7 @@ alias desktop="cd ~/Desktop"
 alias docs="cd ~/Documents"
 alias goland="open -a \"GoLand\""
 alias intellij="open -a \"IntelliJ Idea\""
-alias list="tree -L 1 ."
+alias list="tree -a -L 1 ."
 alias mnemonic="gshuf -n12 /usr/share/dict/words"
 alias now="date +\"%Y-%m-%dT%H:%M:%S%z\""
 alias paulrberg="cd ~/Documents/Projects/PaulRBerg"
@@ -78,9 +78,9 @@ alias ..="cd ../"
 alias curl-post="curl -H \"Content-Type: application/json\""
 
 # ethereum
+alias c="./node_modules/clevis/bin.js"
 alias clefy="clef --networkid 4 --keystore $HOME/Library/Ethereum/rinkeby/keystore --4bytedb $HOME/go/src/github.com/ethereum/go-ethereum/cmd/clef/4byte.json --rules ./rules.js --rpc"
 alias clefyrun="go run *.go --networkid 4 --keystore $HOME/Library/Ethereum/rinkeby/keystore --4bytedb $HOME/go/src/github.com/ethereum/go-ethereum/cmd/clef/4byte.json --rpc"
-alias devnet="docker run -it -d --rm -p 8545:8501 -p 8546:8546 0xorg/devnet:latest /bin/bash"
 alias eth="cd ~/Documents/Blockchain/Ethereum/"
 alias ganache="ganache-cli --port 8545 --networkId 1234"
 alias ganache-app="open -a \"Ganache\""
@@ -91,12 +91,20 @@ alias goerli="geth --datadir $HOME/Library/Ethereum/goerli --rpc"
 alias pat="geth attach ipc:$HOME/Library/Application\ Support/io.parity.ethereum/jsonrpc.ipc"
 alias rinkeby="geth --rinkeby --rpc"
 alias trf="truffle"
+function startDevnet() {
+    docker run -it -d --rm -p 8545:8501 -p 8546:8546 0xorg/devnet:latest /bin/bash
+}
 function stopDevnet() {
     docker stop $(docker ps -aq --filter ancestor=0xorg/devnet:latest)
+}
+function restartDevnet() {
+    stopDevnet
+    startDevnet
 }
 
 # git
 alias gaa="git add -A"
+alias gba="git branch -a"
 alias gcan="git commit --amend --no-edit"
 alias gcm="git commit -m"
 alias gphm="git push heroku master"
