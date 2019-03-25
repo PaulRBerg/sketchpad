@@ -9,3 +9,4 @@ cp $HOME/.gitignore ./.gitignore
 cp $HOME/.nvmrc ./.nvmrc
 cp $HOME/.solhint.json ./.solhint.json
 cp $HOME/.vimrc ./.vimrc
+cp $HOME/.yarnrc ./.yarnrc
